@@ -380,7 +380,7 @@ def get_county_details_url():
     if debug == "true":
         url = "http://localhost:8501/?fips="
     else:
-        url = "https://rachellcalhoun-citizenlabs-upwardmobili-streamlitappmain-2n5268.streamlitapp.com/?fips="
+        url = "https://citizenlabs-upwardmobility-raca.streamlit.app/fips=?fips="
 
     return url
 
